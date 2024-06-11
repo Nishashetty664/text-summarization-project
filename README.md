@@ -10,4 +10,4 @@ Dataset:
 Input Dataset: The input dataset is available in input1.txt.
 
 
-Output Dataset: The output dataset is available in output2.txt.
+Output Dataset after preprocessing stage : The output dataset is available in output2.txt.
