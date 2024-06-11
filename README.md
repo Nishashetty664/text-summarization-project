@@ -12,4 +12,4 @@ Input Dataset: The input dataset is available in input1.txt.
 
 Output Dataset after preprocessing stage : The output dataset is available in output2.txt.
 
-After preprocessing my dataset, I split it into training, validation, and test datasets. The code for this process is posted in the `split` file.
+After preprocessing my dataset, I split it into training, validation, and test datasets. The code for this process is posted in the `spliting` file.
