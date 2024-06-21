@@ -1,8 +1,8 @@
-*TEXT SUMMARIZATION PROJECT*
+**Text Summarization Project
 
-*Overview*
+*Project Overview*
 
-This repository contains the dataset and code for a text summarization project focused on summarizing news articles from the CNN/Daily Mail website. The dataset has been collected from the website and preprocessed to facilitate training, validation, and evaluation of the model.
+This project aims to develop a text summarization model using a dataset from the CNN/DailyMail website. The goal is to create a model that can generate concise and informative summaries of news articles. The project follows a structured approach, including data collection, preprocessing, model training, and evaluation.
 
 Dataset
 
