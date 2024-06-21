@@ -1,6 +1,7 @@
-####Text Summarization Project
+###Text Summarization Project
 
-####Project Overview
+
+###Project Overview
 
 This project aims to develop a text summarization model using a dataset from the CNN/DailyMail website. The goal is to create a model that can generate concise and informative summaries of news articles. The project follows a structured approach, including data collection, preprocessing, model training, and evaluation.
 
