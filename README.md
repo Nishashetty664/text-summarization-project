@@ -42,3 +42,13 @@ Method Used:
 Utilized the ROUGE (Recall-Oriented Understudy for Gisting Evaluation) metric to evaluate the quality of the generated summaries.Calculated ROUGE scores for ROUGE-1, ROUGE-2, and ROUGE-L.
 Implemented a custom function calculate_rouge to calculate ROUGE scores for each summary against its reference summary.
 Achieved an average ROUGE-1 F1 score of 0.2964, an average ROUGE-2 F1 score of 0.1149, and an average ROUGE-L F1 score of 0.2139 on the validation set.
+
+Future Work:
+
+Hyperparameter Tuning:
+
+Experiment with different hyperparameters, such as the learning rate, batch size, and number of training epochs, to further improve the model's performance.
+
+Interface Development:
+
+Work on building a user-friendly interface for the text summarization system, allowing users to easily input text and receive summarized output.
