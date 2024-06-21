@@ -13,7 +13,6 @@ Data Preprocessing
 During the data preprocessing phase, the dataset underwent several steps to clean and prepare it for model training:
 
 Tokenization: The text was tokenized into individual words using NLTK's word_tokenize method.
-
 Stopwords Removal: Common English stopwords were removed using the NLTK stopwords corpus.
 
 Punctuation Removal: Punctuation marks were removed from the text using the translate method with string.punctuation.
@@ -32,7 +31,9 @@ The preprocessed dataset was split into three sets: train, validate, and test, w
 
 Model Training
 
-For the training phase, the pre-trained T5 model from Hugging Face was selected and fine-tuned using the training dataset. The training process yielded a training loss of 2.4627, indicating the model's performance on the training data. The code for model training is available in the file fine_tune.file
+Utilized the T5 transformer model for text summarization because T5 is known for its effectiveness in generating high-quality summaries, making it a suitable choice for this project.
+Implemented training using the native PyTorch method.Used the AdamW optimizer with a learning rate of 1e-5 and weight decay of 0.01 for regularization.Trained the model for 7 epochs with a batch size of 8.
+Result::Training loss=1.84.
 
 Evaluation
 
