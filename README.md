@@ -37,4 +37,8 @@ Result::Training loss=1.84.
 
 Evaluation
 
-For the evaluation stage, the model's performance will be assessed using the ROUGE metric, which is commonly used for evaluating text summarization models. 
+Method Used:
+
+Utilized the ROUGE (Recall-Oriented Understudy for Gisting Evaluation) metric to evaluate the quality of the generated summaries.Calculated ROUGE scores for ROUGE-1, ROUGE-2, and ROUGE-L.
+Implemented a custom function calculate_rouge to calculate ROUGE scores for each summary against its reference summary.
+Achieved an average ROUGE-1 F1 score of 0.2964, an average ROUGE-2 F1 score of 0.1149, and an average ROUGE-L F1 score of 0.2139 on the validation set.
