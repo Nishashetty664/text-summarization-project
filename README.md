@@ -8,7 +8,7 @@ This project aims to develop a text summarization model using a dataset from the
 
 The dataset was sourced from the CNN/DailyMail website due to its rich collection of news articles spanning various topics and genres. This dataset was chosen for its diversity and relevance to current events, ensuring that the model trained on this data would be able to generate summaries that are informative and up-to-date. The dataset size was 11,460 records. 
 
-*Data Preprocessing*
+Data Preprocessing
 
 During the data preprocessing phase, the dataset underwent several steps to clean and prepare it for model training:
 
@@ -24,11 +24,11 @@ Stemming: Words were stemmed using the Porter stemming algorithm to reduce them 
 
 Lemmatization: Lemmatization was applied to further reduce words to their base form using the WordNet lemmatizer.
 
-The cleaned and preprocessed text data was saved to a new CSV file (preprocessed_data.csv), containing the 'id', 'cleaned_article', and 'cleaned_highlights' columns 
+The cleaned and preprocessed text data was saved to a new CSV file (preprocessed_data.csv), containing the 'id', 'cleaned_article', and 'cleaned_highlights' columns.
 
-Splitting the Dataset
+Dataset Splitting
 
-After preprocessing, the dataset was split into training, validation, and test datasets. The code for this process is provided in the file preprocessed_split file.This ensures that the model can be trained, validated, and tested on distinct subsets of the data to evaluate its performance accurately.
+The preprocessed dataset was split into three sets: train, validate, and test, with proportions of 80%, 10%, and 10%, respectively. This splitting was done using the train_test_split method from scikit-learn.
 
 Model Training
 
