@@ -34,7 +34,7 @@ The preprocessed dataset was split into three sets: train, validate, and test, w
 ### Model Training
 
 Utilized the T5 transformer model for text summarization because T5 is known for its effectiveness in generating high-quality summaries, making it a suitable choice for this project.
-Implemented training using the native PyTorch method.Used the AdamW optimizer with a learning rate of 1e-5 and weight decay of 0.01 for regularization.Trained the model for 7 epochs with a batch size of 8.
+Implemented training using the native PyTorch method.Used the AdamW optimizer with a learning rate of 1e-5 and weight decay of 0.01 for regularization.
 Result::Training Loss: 1.8424                                                                                                Validation Loss: 1.9955
 
 ### Evaluation
