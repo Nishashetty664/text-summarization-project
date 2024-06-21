@@ -1,4 +1,4 @@
-**Text Summarization Project
+Text Summarization Project
 
 *Project Overview*
 
