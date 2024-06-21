@@ -1,6 +1,6 @@
-###### Text Summarization Project
+### Text Summarization Project
 
-#### Project Overview:
+### Project Overview:
 
 This project aims to develop a text summarization model using a dataset from the CNN/DailyMail website. The goal is to create a model that can generate concise and informative summaries of news articles. The project follows a structured approach, including data collection, preprocessing, model training, and evaluation.
 
@@ -12,7 +12,7 @@ The dataset was sourced from the CNN/DailyMail website due to its rich collectio
 
 During the data preprocessing phase, the dataset underwent several steps to clean and prepare it for model training:
 
-## Tokenization: 
+# Tokenization: 
 The text was tokenized into individual words using NLTK's word_tokenize method.
 ## Stopwords Removal:
 Common English stopwords were removed using the NLTK stopwords corpus.
