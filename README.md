@@ -35,7 +35,7 @@ The preprocessed dataset was split into three sets: train, validate, and test, w
 
 Utilized the T5 transformer model for text summarization because T5 is known for its effectiveness in generating high-quality summaries, making it a suitable choice for this project.
 Implemented training using the native PyTorch method.Used the AdamW optimizer with a learning rate of 1e-5 and weight decay of 0.01 for regularization.
-Result::Training Loss: 1.8424                                                                                                Validation Loss: 1.9955
+Result::Training Loss: 1.09                                                                                                Validation Loss: 0.94
 
 ### Evaluation
 
@@ -43,7 +43,7 @@ Result::Training Loss: 1.8424                                                   
 
 Utilized the ROUGE (Recall-Oriented Understudy for Gisting Evaluation) metric to evaluate the quality of the generated summaries.Calculated ROUGE scores for ROUGE-1, ROUGE-2, and ROUGE-L.
 Implemented a custom function calculate_rouge to calculate ROUGE scores for each summary against its reference summary.
-Achieved an average ROUGE-1 F1 score of 0.2964, an average ROUGE-2 F1 score of 0.1149, and an average ROUGE-L F1 score of 0.2139 on the validation set.
+Achieved an average ROUGE-1 F1 score of 0.35, an average ROUGE-2 F1 score of 0.15, and an average ROUGE-L F1 score of 0.25 on the validation set.
 
 ### Future Work:
 
