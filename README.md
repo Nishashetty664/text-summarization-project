@@ -44,13 +44,13 @@ Result::Training Loss: 1.09                                                     
 Utilized the ROUGE (Recall-Oriented Understudy for Gisting Evaluation) metric to evaluate the quality of the generated summaries.Calculated ROUGE scores for ROUGE-1, ROUGE-2, and ROUGE-L.
 Implemented a custom function calculate_rouge to calculate ROUGE scores for each summary against its reference summary.
 Achieved an average ROUGE-1 F1 score of 0.35, an average ROUGE-2 F1 score of 0.15, and an average ROUGE-L F1 score of 0.25 on the validation set.
-
-### Future Work:
-
-Hyperparameter Tuning:
+# Hyperparameter Tuning:
 
 Experiment with different hyperparameters, such as the learning rate, batch size, and number of training epochs, to further improve the model's performance.
+after the hyperparameter tunung the performance increased from 0.32 to 0.50 rough1 score.
 
-Interface Development:
+## Interface Development:
 
-Work on building a user-friendly interface for the text summarization system, allowing users to easily input text and receive summarized output.
+Implemented an interactive text summarization interface using Gradio, leveraging a fine-tuned T5 model for abstractive summarization and the TextRank algorithm for extractive summarization, with PDF processing capabilities using PyMuPDF (fitz).
+### future work 
+working on report and deployment of model
