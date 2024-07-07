@@ -1,0 +1,37 @@
+body {
+  background-color: #f0f8ff;
+}
+
+#text-summify-heading {
+  color: #4b0082;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+.gradio-container {
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.gr-button {
+  background-color: #ffa500; /* Orange */
+  color: #fff;
+}
+
+.description-content {
+  background-color: #e6e6fa; /* Light lavender */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.input-area {
+  background-color: #f0e68c; /* Light khaki */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.output-area {
+  background-color: #98fb98; /* Pale green */
+  padding: 10px;
+  border-radius: 5px;
+}
