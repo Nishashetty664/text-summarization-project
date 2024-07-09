@@ -52,6 +52,7 @@ Achieved an average ROUGE-1 F1 score of 0.35, an average ROUGE-2 F1 score of 0.1
 
 Experiment with different hyperparameters, such as the learning rate, batch size, and number of training epochs, to further improve the model's performance.
 after the hyperparameter tunung the performance increased from 0.32 to 0.50 rough1 score.
+trained model and tokenizer:[fine-tuning](https://drive.google.com/drive/folders/1yrKurkP2rmjW48tUTzR7LrgssDyndRq9?usp=drive_link)
 
 ## Interface Development:
 
