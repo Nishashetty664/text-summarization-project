@@ -7,6 +7,8 @@ This project aims to develop a text summarization model using a dataset from the
 ### Data Collection
 
 The dataset was sourced from the CNN/DailyMail website due to its rich collection of news articles spanning various topics and genres. This dataset was chosen for its diversity and relevance to current events, ensuring that the model trained on this data would be able to generate summaries that are informative and up-to-date. The dataset size was 11,490 records. 
+[master_dataset](https://colab.research.google.com/drive/1pNrSrfx24g1Uy41tTUiziLmQzfqcv9Pq?usp=drive_link)
+
 
 ### Data Preprocessing
 
