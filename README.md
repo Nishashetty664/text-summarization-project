@@ -5,8 +5,9 @@
 This project aims to develop a text summarization model using a dataset from the CNN/DailyMail website. The goal is to create a model that can generate concise and informative summaries of news articles. The project follows a structured approach, including data collection, preprocessing, model training, and evaluation.
 
 ### Data Collection
+Source: For this project, I collected data from the CNN/DailyMail website. This dataset is ideal for training summarization models because of its rich and diverse content.
+Initial Dataset: The main dataset was initially saved as dataset.csv, containing 70,000 records.Due to constraints such as processing power, memory limitations, and the need for efficient handling, I reduced the dataset size to 11,490 records.Random sampling is used to reduce the size of dataset.
 
-The dataset was sourced from the CNN/DailyMail website due to its rich collection of news articles spanning various topics and genres. This dataset was chosen for its diversity and relevance to current events, ensuring that the model trained on this data would be able to generate summaries that are informative and up-to-date. The dataset size was 11,490 records. 
 [master_dataset](https://drive.google.com/file/d/1jjldQUckT-HQWkgLgwtXu4ClKm5LE0NV/view?usp=drive_link)
 
 
