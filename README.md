@@ -59,4 +59,4 @@ trained model and tokenizer:[fine-tuning](https://drive.google.com/drive/folders
 
 Implemented an interactive text summarization interface using Gradio, leveraging a fine-tuned T5 model for abstractive summarization and the TextRank algorithm for extractive summarization, with PDF processing capabilities using PyMuPDF (fitz).
 ### future work 
-working on report and deployment of model
+ deployment of model
