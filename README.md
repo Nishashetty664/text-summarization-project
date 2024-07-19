@@ -28,7 +28,8 @@ Words were stemmed using the Porter stemming algorithm to reduce them to their b
 #### Lemmatization:
 Lemmatization was applied to further reduce words to their base form using the WordNet lemmatizer.
 
-The cleaned and preprocessed text data was saved to a new CSV file (preprocessed_data.csv), containing the 'id', 'cleaned_article', and 'cleaned_highlights' columns.
+The cleaned and preprocessed text data was saved to a new CSV file (demo.csv), containing the 'id', 'cleaned_article', and 'cleaned_highlights' columns.
+[demo.csv](https://colab.research.google.com/drive/1GVC787vYicnkk4xXrc9_zBl1VjMXBeXE?usp=drive_link).
 
 ### Dataset Splitting
 
