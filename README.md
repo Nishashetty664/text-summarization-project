@@ -56,6 +56,10 @@ Utilized the T5 transformer model for text summarization because T5 is known for
 Implemented training using the native PyTorch method.Used the AdamW optimizer with a learning rate of 1e-5 and weight decay of 0.01 for regularization.
 Result::Training Loss: 1.05                                                                                                Validation Loss: 0.96
 
+[training_link](https://github.com/Nishashetty664/text-summarization-project/blob/8c53c5bb75eebfcef6c0f1992ac0ff5663cc0b65/milestone1/final%20training%20code.ipynb)
+
+
+
 ### Evaluation
 
 ###### Method Used:
@@ -65,6 +69,8 @@ Implemented a custom function calculate_rouge to calculate ROUGE scores for each
 Significant enhancements in model performance were observed following rigorous hyperparameter tuning.
 Initial ROUGE-1, ROUGE-2, and ROUGE-L scores stood at 0.322, 0.142, and 0.237 respectively.
 Post tuning, these metrics improved to 0.505, 0.339, and 0.437, demonstrating substantial progress in summarization accuracy.
+
+[evaluation_link](https://github.com/Nishashetty664/text-summarization-project/blob/8c53c5bb75eebfcef6c0f1992ac0ff5663cc0b65/milestone1/evaluation_abtractive.ipynb).
 
 # Hyperparameter Tuning:
 
@@ -79,6 +85,8 @@ trained model and tokenizer:[fine-tuning](https://drive.google.com/drive/folders
 
 •	Used textrank algorithm 
 
+[extractive_link](https://github.com/Nishashetty664/text-summarization-project/blob/8c53c5bb75eebfcef6c0f1992ac0ff5663cc0b65/milestone1/extractive_code.ipynb).
+
 #### RESULT:
 
 o	Precision: The average precision score was approximately 0.119.
@@ -92,11 +100,17 @@ o	F1 Score: The average F1 score was approximately 0.203.
 
 Implemented an interactive text summarization interface using Gradio, leveraging a fine-tuned T5 model for abstractive summarization and the TextRank algorithm for extractive summarization, with PDF processing capabilities using PyMuPDF (fitz).
 
+[interface_py](https://github.com/Nishashetty664/text-summarization-project/blob/8c53c5bb75eebfcef6c0f1992ac0ff5663cc0b65/milestone1/app1.py).
+
 ###  results
 
 ![image](https://github.com/user-attachments/assets/b41e1626-7108-4ebd-be59-652c3f84f282)
 ![image](https://github.com/user-attachments/assets/8b4523a8-786c-4134-bfbb-db73abb9e97b)
 
+##### report:
+[link_to_report](https://github.com/Nishashetty664/text-summarization-project/blob/8c53c5bb75eebfcef6c0f1992ac0ff5663cc0b65/report.pdf) 
+### presentation:
+[link_to_presentation](https://github.com/Nishashetty664/text-summarization-project/blob/8c53c5bb75eebfcef6c0f1992ac0ff5663cc0b65/presentation.pdf).
 
  
  ### Conclusion
