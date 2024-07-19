@@ -34,6 +34,8 @@ The cleaned and preprocessed text data was saved to a new CSV file (preprocessed
 
 The preprocessed dataset was split into three sets: train, validate, and test, with proportions of 80%, 10%, and 10%, respectively. This splitting was done using the train_test_split method from scikit-learn.
 [train_dataset](https://drive.google.com/file/d/1GmQ9fkA93uDFb2-tMghMDspJ6FMWtKEI/view?usp=drive_link)
+[validate_dataset](https://drive.google.com/file/d/1tKxOxz-22GiiLqpuorJHxx0ZWP7GxMXM/view?usp=drive_link).
+[test_dataset](https://drive.google.com/file/d/1qGaVyolBbiYAyZLcJ65R4qZ5HIMrB2b3/view?usp=drive_link).
 
 
 ### Model Training
