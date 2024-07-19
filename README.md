@@ -110,8 +110,7 @@ o	Using the T5-small model for abstractive summarization and the TextRank algori
 o	This project highlighted the potential of NLP technologies to enhance information retrieval and readability, benefiting various business applications and beyond.
 
 
-                                                ![image](https://github.com/user-attachments/assets/e3cd79de-c303-4210-b0bb-90d992da9c80)
-
+ #                                               Thank you🌟
 
 
 
